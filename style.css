@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("banner.jpg");
+    background-size: cover;
+}
+
+.start .startbutton a{
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    background-color: red;
+    color: lime;
+    text-decoration: none;
+}
+
+.start .startbutton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.start {
+    text-align: center;
+    margin: 240px 240px 240px 240px;
+    color:lime;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+    color: green;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+.container {
+    margin: 100px 100px 100px 100px;
+    padding: 50px 50px 50px 50px;
+    background-color: grey;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bild img {
+    width: 100%;
+    height: auto;
+}
